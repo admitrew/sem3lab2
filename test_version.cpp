@@ -9,9 +9,9 @@ BOOST_AUTO_TEST_SUITE(test_version)
 BOOST_AUTO_TEST_CASE(test_valid_version)
 {
     std::vector<std::vector<int>> arr = {{31}, {33}, {52}, {69}, {228}, {420}};
-    BOOST_CHECK(LexiSort(arr[0], arr[1]));
-    BOOST_CHECK(LexiSort(arr[2], arr[3]));
-    BOOST_CHECK(LexiSort(arr[4], arr[5]));
+    BOOST_CHECK(ip_sort(arr[0], arr[1]));
+    BOOST_CHECK(ip_sort(arr[2], arr[3]));
+    BOOST_CHECK(ip_sort(arr[4], arr[5]));
 }
 
 BOOST_AUTO_TEST_SUITE_END()
