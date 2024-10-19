@@ -1,3 +1,12 @@
+#include <cassert>
+#include <cstdlib>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <algorithm>
+#include <tuple>
+
 std::vector<std::string> split(const std::string &str){
     std::vector<std::string> r;
     std::string::size_type start = 0;

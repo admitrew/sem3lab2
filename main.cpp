@@ -6,8 +6,7 @@
 #include <fstream>
 #include <algorithm>
 #include <tuple>
-#include <func.h>
-
+#include "func.h"
 
 int main(){
     std::vector<std::vector<int>> ip_address; // вектор векторов - 
