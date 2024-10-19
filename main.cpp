@@ -5,7 +5,6 @@
 #include <vector>
 #include <fstream>
 #include <algorithm>
-#include <tuple>
 #include "func.h"
 
 int main(){
